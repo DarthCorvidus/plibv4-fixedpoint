@@ -1,0 +1,8 @@
+plibv4/FixedPoint - a class to encapsulate a fixed point number
+
+Floating point numbers are prone to precision errors and therefore are not well
+suited for many purposes, especially when doing finance/accountancy.
+It is therefore advised to multiply by 100 in finance, cast to int, do additions
+with the integers and divide by 100 again for the final result.
+Naturally, it's easy to loose track on your way, that's why I encapsulated
+a fixed point number into a class for easier and more reliable use.

@@ -1,0 +1,7 @@
+{
+	"name": "plibv4/fixedpoint",
+	"autoload": {
+        "classmap": ["src/"]
+    }
+
+}
